@@ -6,5 +6,5 @@ const result= reduce(items,(startingValue,item)=>{
     startingValue+=item;
 
     return startingValue;
-},0);
+});
 console.log(result);
